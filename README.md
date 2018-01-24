@@ -46,27 +46,28 @@ Give two sets of instance variables that can be used for implementing the Time c
 
 #Encapsualtion is encouraged: in which all instance variables ar private and are only manipualted with methods.
 
-#2.Constructir defines and initialize instance variables of an object. Automatically called whenever an object is created.
+#2.Constructor defines and initializes instance variables of an object. Automatically called whenever an object is created.
 To create instance of the CashRegister
-register = CashREgister()
+
+    register = CashREgister()
 
 The reference is saved in a variablesPython uses the special name__init__for the constructor because it initializes an instance of the class:
   
-  def__init__(self) :
-    self._itemCount = 30
-    self._totalPrice =0 
+      def__init__(self) :
+        self._itemCount = 30
+        self._totalPrice =0 
     
 Self is always the first parameter variables
 Create an instance variables:
-    self._itemCount = 0 
+        self._itemCount = 0 
     
 Create an empty list: 
-     empty = list()
+        empty = list()
 
 Constructor: 
-  class ClassName: 
-    def__init__(self)
-    self.balance = 0.0 
+       class ClassName : 
+         def__init__(self)
+         self.balance = 0.0 
 
 #Python allows you to use only one constructor per class but you can define constructor with default argument values that stimulate multiple definitions
 
