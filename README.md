@@ -65,9 +65,10 @@ Create an empty list:
         empty = list()
 
 Constructor: 
-       class ClassName : 
-         def__init__(self)
-         self.balance = 0.0 
+
+         class ClassName : 
+            def__init__(self)
+            self.balance = 0.0 
 
 #Python allows you to use only one constructor per class but you can define constructor with default argument values that stimulate multiple definitions
 
