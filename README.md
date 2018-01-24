@@ -1,10 +1,12 @@
 # Object-Oriented-Programming
 
-
-#My notes on chapter 9 : Object oriented Programming from "Python for everyone"
  #Object-Oriebted 
-#Consider a class time that represents a point in time, 9am or 3:30 pm. Give two sets of instance variables that can be used for implementing the Time class
+#Consider a class time that represents a point in time, 9am or 3:30 pm. 
+
+Give two sets of instance variables that can be used for implementing the Time class
+
 #Method: part of class definition
+
 #accessor: quiery the object for some infor without changing it  e.g getTotal getCount
 
 #
@@ -69,7 +71,7 @@ Example #if an object is constructed as harry = Person("Harry", "Morgan")
        def__init__(self,firstname, lastname) :
          self._name = lastname + "," + firstname     >>> A constructor always start with "self"
     
-    it will folow the last name and first name, so Morgan Harry is the name
+   it will folow the last name and first name, so Morgan Harry is the name
     
     
 Example Provide  an implement for a Person constructor so that after the call p = Person()
