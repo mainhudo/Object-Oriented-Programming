@@ -12,11 +12,16 @@ Give two sets of instance variables that can be used for implementing the Time c
 #
 #Defines the Time Clas with this module
 class Time :
+
   def getValue(self):
+  
     return self._value
+    
   def click(self) :
+  
     self._value = self.value + 1
 def reset(self) :
+
   self._value = 0    
     
     #Construct an object
