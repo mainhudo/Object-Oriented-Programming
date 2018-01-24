@@ -27,14 +27,18 @@ Give two sets of instance variables that can be used for implementing the Time c
     #Construct an object
     
     
-time1 = Time()
+     time1 = Time()
 
-#Invoke a classmethod
+     #Invoke a classmethod
 
-result = time1.add()
-time1 = reset()
-result = time1.addItem()
-print(time1.getCount(), time1.getTotal())
+     result = time1.add()
+
+
+     time1 = reset()
+
+     result = time1.addItem()
+
+     print(time1.getCount(), time1.getTotal())
 
 
 #All instance of the variables should be private and most methods should be public. Python does not explicitly hide or protect private members from outside accessor
