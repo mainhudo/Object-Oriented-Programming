@@ -10,7 +10,7 @@ Give two sets of instance variables that can be used for implementing the Time c
 #accessor: quiery the object for some infor without changing it  e.g getTotal getCount
 
 #
-#Defines the Time Clas with this module
+#Defines the Time Class with this module
   class Time :
 
     def getValue(self):
@@ -180,7 +180,7 @@ def addChoice(self, choice) :
   
   Car My Car : reset, addGallon(amount), getGasLeft
   
-8. MAnage Properties of an Object 
+8. Manage Properties of an Object 
 Property is a value of an object that a user of that object can set and retrieve. A Student object may have a name an an ID. 
    Object property and be accessed with a getter method and charged with a setter methof 
    
@@ -193,7 +193,7 @@ Property is a value of an object that a user of that object can set and retrieve
     def setName(self, newName) :
       self._name = newName 
     
-  Sometimes we should do error checking like reject a blank name: 
+  Sometimes we should do error checking like reject a blank name
   
       
 9. Types of reference : Variable merely holds the memory location of an object. The object itself is stored elsewhere. So Object reference to denote the memory location of an object.  None Reference: Self Reference, Shared Reference 
